@@ -103,7 +103,7 @@ export const portfolioData: PortfolioData = {
     fullName: "Hafiz Adjei",
     headline: "ECE Graduate Student & Researcher at Carnegie Mellon University Africa",
     currentStatus: "M.S. Student in Electrical and Computer Engineering @ CMU-Africa | Mastercard Foundation Scholar Alumni",
-    introduction: "I am a graduate electrical and computer engineer specializing in developing intelligent, sustainable technology solutions. My research and development interests span wireless communication systems, Internet of Things (IoT), and embedded hardware design, particularly focused on high-impact applications in healthcare, environmental sensing, and agricultural technology.",
+    introduction: "I am a graduate electrical and computer engineer specializing in developing intelligent, sustainable technology solutions. My research and development interests span deep learning in wireless communication systems, Internet of Things (IoT), and embedded hardware design, particularly focused on high-impact applications in healthcare, environmental sensing, and agricultural technology.",
     cvUrl: "/cv/Hafiz_Adjei_CV.pdf", // Placeholder path for CV
     contacts: {
       email: "adjeihafiz2@gmail.com",
@@ -112,13 +112,13 @@ export const portfolioData: PortfolioData = {
       location: "Kigali, Rwanda / Accra, Ghana",
       github: "https://github.com/hafizadjei",
       linkedin: "https://linkedin.com/in/hafizadjei", // Placeholder or standard
-      orcid: "https://orcid.org/0009-0004-1234-5678", // Sample ORCID
-      scholar: "https://scholar.google.com/citations?user=SAMPLE_USER_ID", // Sample Google Scholar
+      // orcid: "https://orcid.org/0009-0004-1234-5678", // Sample ORCID
+      // scholar: "https://scholar.google.com/citations?user=SAMPLE_USER_ID", // Sample Google Scholar
     }
   },
   researchInterests: {
     title: "Research Scope & Vision",
-    description: "My academic journey is centered around bridging the gap between embedded hardware design, wireless communications, and artificial intelligence to build sustainable, edge-native technologies for underserved communities.",
+    description: "My academic journey is centered around bridging the gap between embedded hardware design, internet of things and wireless communications, and artificial intelligence to build sustainable, edge-native technologies for underserved communities.",
     topics: [
       {
         name: "Embedded Systems & IoT Architectures",
@@ -128,13 +128,13 @@ export const portfolioData: PortfolioData = {
       {
         name: "Wireless Communication & Edge Networks",
         description: "Developing robust data transmission architectures in remote areas where traditional grid and cellular networks are unavailable. Exploring mesh topologies, LoRaWAN, and energy-harvesting communications.",
-        methodologies: ["Link budget analysis", "RF propagation modeling", "Sub-GHz protocols"]
+        methodologies: ["Link budget analysis", "RF propagation modeling", "Deep learning for wireless communications"]
       },
-      {
-        name: "Language Tech & Evaluation for Low-Resource Languages",
-        description: "Applying machine learning benchmarks to low-resource speech technologies. Collaborating on evaluation strategies for automatic speech recognition (ASR) systems representing diverse African languages.",
-        methodologies: ["Native speaker evaluation", "Acoustic model fine-tuning", "Cross-lingual speech benchmarking"]
-      }
+      // {
+      //   name: "Language Tech & Evaluation for Low-Resource Languages",
+      //   description: "Applying machine learning benchmarks to low-resource speech technologies. Collaborating on evaluation strategies for automatic speech recognition (ASR) systems representing diverse African languages.",
+      //   methodologies: ["Native speaker evaluation", "Acoustic model fine-tuning", "Cross-lingual speech benchmarking"]
+      // }
     ],
     phdFocus: "For my future PhD direction, I aim to explore self-sustaining, intelligent edge devices. Specifically, I am interested in how energy-harvesting IoT nodes can run lightweight, locally-trained machine learning models to perform complex sensing and diagnostic tasks in real-time, completely decoupled from cloud servers."
   },
@@ -155,22 +155,22 @@ export const portfolioData: PortfolioData = {
       github: "https://github.com/hafizadjei/shunt-dc-motor-simulink",
       featured: true
     },
-    {
-      slug: "waxalnet-asr-benchmark",
-      title: "WAXALNet Benchmark: Native Speaker Evaluation",
-      subtitle: "Low-Resource African Language Speech Recognition",
-      category: "Speech AI & Linguistics",
-      period: "2024 - 2025",
-      problem: "Modern Automatic Speech Recognition (ASR) systems perform poorly on African languages due to a lack of clean training datasets, dialectal variations, and native verification benchmarks.",
-      motivation: "Developing inclusive speech interfaces is essential to enable technology access in health, agriculture, and literacy for millions of non-English speakers across Sub-Saharan Africa.",
-      methodology: "Participated as a language expert and native evaluator for the WAXAL ASR Benchmark. Formulated testing criteria, performed manual evaluations of generated transcriptions, identified phonetic biases in acoustic models, and assisted in benchmarking models across 19 target languages.",
-      techStack: ["Python", "Hugging Face", "Wav2Vec 2.0", "Speech Benchmarking"],
-      challenges: "Aligning phonetic nuances in oral African languages with written representations, and standardizing transcription guidelines for low-resource languages lacking official standardized orthography.",
-      results: "Helped validate the WAXALNet models, which are fine-tuned on the WAXAL corpus. The contribution helped establish error-analysis baselines, improving word error rate (WER) understanding across West African languages.",
-      impact: "Directly acknowledged in the WAXALNet publication and benchmarking repository. Collaborated with researchers from Carnegie Mellon University Africa and LyngualLabs.",
-      demo: "https://huggingface.co/models?search=waxal",
-      featured: true
-    },
+    // {
+    //   slug: "waxalnet-asr-benchmark",
+    //   title: "WAXALNet Benchmark: Native Speaker Evaluation",
+    //   subtitle: "Low-Resource African Language Speech Recognition",
+    //   category: "Speech AI & Linguistics",
+    //   period: "2024 - 2025",
+    //   problem: "Modern Automatic Speech Recognition (ASR) systems perform poorly on African languages due to a lack of clean training datasets, dialectal variations, and native verification benchmarks.",
+    //   motivation: "Developing inclusive speech interfaces is essential to enable technology access in health, agriculture, and literacy for millions of non-English speakers across Sub-Saharan Africa.",
+    //   methodology: "Participated as a language expert and native evaluator for the WAXAL ASR Benchmark. Formulated testing criteria, performed manual evaluations of generated transcriptions, identified phonetic biases in acoustic models, and assisted in benchmarking models across 19 target languages.",
+    //   techStack: ["Python", "Hugging Face", "Wav2Vec 2.0", "Speech Benchmarking"],
+    //   challenges: "Aligning phonetic nuances in oral African languages with written representations, and standardizing transcription guidelines for low-resource languages lacking official standardized orthography.",
+    //   results: "Helped validate the WAXALNet models, which are fine-tuned on the WAXAL corpus. The contribution helped establish error-analysis baselines, improving word error rate (WER) understanding across West African languages.",
+    //   impact: "Directly acknowledged in the WAXALNet publication and benchmarking repository. Collaborated with researchers from Carnegie Mellon University Africa and LyngualLabs.",
+    //   demo: "https://huggingface.co/models?search=waxal",
+    //   featured: true
+    // },
     {
       slug: "twelve-hour-digital-clock",
       title: "Hardware Design of a 12-Hour Digital Clock",
@@ -215,30 +215,30 @@ export const portfolioData: PortfolioData = {
       doi: "10.5281/zenodo.xxxxxx", // Sample
       abstract: "This paper presents a comprehensive study on the terminal characteristics and speed control of a shunt DC motor modeled using MATLAB and Simulink. Unlike standard machine blocks, this study outlines step-by-step custom equations representing magnetic saturation, field winding behaviors, and armature resistance. The results validate speed-torque characteristics and evaluate voltage and field flux speed control strategies under dynamic mechanical loads.",
       bibtex: `@article{baraka2024shunt,\n  title={Terminal Characteristics Studies of a MATLAB Simulink-Based Model of Shunt DC Motor},\n  author={Baraka, Jonathan and Amosah, Kofi and Aho, Enoch and Adjei, Hafiz},\n  journal={Science Engineering Entrepreneurship Design (SEED) Journal},\n  volume={2},\n  number={2},\n  year={2024},\n  publisher={Ashesi University}\n}`
-    },
-    {
-      id: "waxalnet-asr-2025",
-      title: "WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages",
-      authors: "Carnegie Mellon University Africa Research Team, Native Language Contributors (including Hafiz Adjei)",
-      journalOrVenue: "LyngualLabs & CMU-Africa Technical Reports",
-      year: 2025,
-      type: "evaluation",
-      link: "https://huggingface.co/models?search=waxal",
-      abstract: "This report introduces WAXALNet, a series of speech-to-text models optimized for low-resource languages of West Africa. By training on the WAXAL multi-lingual corpus, the model achieves robust phonetic alignment. This work details the critical evaluation pipeline where native speaker evaluation was utilized to fine-tune acoustic thresholds, validating model outputs against traditional phonetic standards.",
-      bibtex: `@techreport{cmu2025waxalnet,\n  title={WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages},\n  author={CMU-Africa Research Team and Adjei, Hafiz},\n  institution={Carnegie Mellon University Africa},\n  year={2025}\n}`
     }
+    // {
+    //   id: "waxalnet-asr-2025",
+    //   title: "WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages",
+    //   authors: "Carnegie Mellon University Africa Research Team, Native Language Contributors (including Hafiz Adjei)",
+    //   journalOrVenue: "LyngualLabs & CMU-Africa Technical Reports",
+    //   year: 2025,
+    //   type: "evaluation",
+    //   link: "https://huggingface.co/models?search=waxal",
+    //   abstract: "This report introduces WAXALNet, a series of speech-to-text models optimized for low-resource languages of West Africa. By training on the WAXAL multi-lingual corpus, the model achieves robust phonetic alignment. This work details the critical evaluation pipeline where native speaker evaluation was utilized to fine-tune acoustic thresholds, validating model outputs against traditional phonetic standards.",
+    //   bibtex: `@techreport{cmu2025waxalnet,\n  title={WAXALNet: Benchmarking Automatic Speech Recognition for West African Low-Resource Languages},\n  author={CMU-Africa Research Team and Adjei, Hafiz},\n  institution={Carnegie Mellon University Africa},\n  year={2025}\n}`
+    // }
   ],
   experiences: [
     {
       role: "Graduate Researcher & ECE Student",
       company: "Carnegie Mellon University Africa",
       location: "Kigali, Rwanda",
-      period: "2025 - Present",
+      period: "2025 - 2026",
       type: "research",
       highlights: [
-        "Pursuing Master of Science in Electrical and Computer Engineering with a focus on advanced IoT networks, system design, and AI-enabled hardware.",
-        "Contributing native evaluation support and linguistic benchmarking for low-resource Speech AI research projects (WAXALNet).",
-        "Exploring low-power sensing nodes and RF propagation models for rural wireless technologies."
+        "Master of Science in Electrical and Computer Engineering with a focus on advanced IoT networks, system design, and AI-enabled hardware.",
+        // "Contributing native evaluation support and linguistic benchmarking for low-resource Speech AI research projects (WAXALNet).",
+        "Exploring low-power sensing nodes, deep learning for wireless communication and RF propagation models for rural wireless technologies."
       ]
     },
     {
@@ -248,7 +248,7 @@ export const portfolioData: PortfolioData = {
       period: "2023 - 2024",
       type: "teaching",
       highlights: [
-        "Assisted in instructing undergraduate laboratories in Digital Systems Design, Microprocessor Interfacing, and Control Systems.",
+        "Assisted in instructing undergraduate laboratories in circult and electronics, Microprocessor Interfacing, and Control Systems.",
         "Guided student groups in building Proteus schematics, discrete IC wiring, and debugging C-based microcontroller code.",
         "Mentored incoming Mastercard Foundation Scholars, aiding their transition into engineering rigor."
       ]
@@ -266,27 +266,27 @@ export const portfolioData: PortfolioData = {
       ]
     },
     {
-      role: "Student Leadership & Mastercard Foundation Ambassador",
-      company: "Mastercard Foundation Scholars Program",
-      location: "Ashesi University, Ghana",
-      period: "2020 - 2024",
-      type: "leadership",
-      highlights: [
-        "Organized community outreach projects focused on introducing basic STEM skills to local high school students in Berekuso.",
-        "Represented Ashesi Scholars at Mastercard Foundation regional summits, advocating for sustainable engineering education.",
-        "Led campus peer tutoring circles in introductory mathematics, circuits, and programming."
-      ]
-    }
+    //   role: "Student Leadership & Mastercard Foundation Ambassador",
+    //   company: "Mastercard Foundation Scholars Program",
+    //   location: "Ashesi University, Ghana",
+    //   period: "2020 - 2024",
+    //   type: "leadership",
+    //   highlights: [
+    //     "Organized community outreach projects focused on introducing basic STEM skills to local high school students in Berekuso.",
+    //     "Represented Ashesi Scholars at Mastercard Foundation regional summits, advocating for sustainable engineering education.",
+    //     "Led campus peer tutoring circles in introductory mathematics, circuits, and programming."
+    //   ]
+    // }
   ],
   education: [
     {
       degree: "M.S. in Electrical and Computer Engineering",
       institution: "Carnegie Mellon University Africa",
       location: "Kigali, Rwanda",
-      period: "2025 - 2027 (Expected)",
+      period: "2025 - 2026",
       details: "Focusing on embedded hardware, low-power IoT networks, wireless systems, and edge intelligence.",
-      courses: ["Advanced Embedded Systems", "Wireless Communication Networks", "Machine Learning at the Edge", "Signal Processing"],
-      awards: ["CMU-Africa Graduate Fellowship", "Mastercard Foundation Graduate Affiliate"]
+      courses: ["Introduction to deep learning", "Wireless Communication Networks", "Introduction to system programing", "Internet of things"],
+      awards: ["CMU-Africa Graduate Fellowship"]
     },
     {
       degree: "B.S. in Electrical and Electronic Engineering",
